@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&family=Source+Code+Pro:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* width 20 and 80vw will divide screen for main & sidebar in 20 and 80 screen size */
+.sidebar{
+    background-color: rgb(184, 178, 178);
+    width: 434px;
+    font-family: 'Finlandica', sans-serif;
+    height: 100vh;
+}
+
+/* this is for padding or spacing in sidebar */
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li{
+    /* this is for removing dots from each elements means simply word without dot in front of them */
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+
+.main{
+    /* background-color: red; */
+    width: 90vw;
+}
+
+
+/* to show sidebar and main div's side by side */
+.container{
+    display: flex;
+              
+}
+
+.infocontainer{
+    /* background-color: white; */
+    height: 58vh;
+    width: 80vw;
+    /* this is to adjust the size of this white box */
+    margin: 147px auto;
+    display: flex;
+    /* to move the place of image */
+    justify-content: space-around;
+}
+
+.devPic img{
+    /* same as the height of white box */
+    height: 58vh;
+}
+
+.devInfo{
+    /* adjusting the written content inside white box */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    color: White;
+}
+
+.Hello{
+    font-size: 55px;
+}
+
+.Name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+}
+
+.About{
+    font-size: 40px;
+}
+
+.moreAbout{
+    font-size: 22px;
+    font-family: 'Finlandica', sans-serif;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.buttons button{
+    padding: 7px 12px;
+    border-radius: 22px;
+    color: black;
+    background-color: rgb(147, 192, 236);
+    font-weight: bold;
+    /* font-family: 'Finlandica', sans-serif; */
+    font-size: 18px ;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: rgb(92, 90, 90);
+    color: rgb(149, 198, 236);
+}
+
+
+
+.contactform {
+    font-family: 'Finlandica', sans-serif;
+    padding: 0 40px;
+    padding-top: 100px;
+    
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+    padding: 12px 0;
+}
+
+
+.contactform form div{
+    font-family:'Finlandica', sans-serif ;
+    padding:10px 0;
+    /* to make one element start nearly form the next one */
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+.btn-sm{
+    font-size: 17px;
+    border-radius: 12px;
+    color: black;
+    background-color: rgb(147, 192, 236);
+    /* font-weight: bold; */
+    margin: 0 3px;
+    cursor: pointer;
+    /* margin: 6px 0 0 0; */
+    padding: 3px;
+}
+
+.btn-sm:hover{
+    background-color: rgb(92, 90, 90);
+    color: rgb(149, 198, 236);
+}
+
+.blogItem{
+    margin: 60px;
+    font-family:'Finlandica', sans-serif ;
+    padding-right: 0px;
+}
+
+.blogItem h2{
+    font-family:'Finlandica', sans-serif ;
+}
+
+.blogItem p{
+    font-family: 'Source Code Pro', monospace; 
+    font-weight: bold;
+}
+
+
+.About p{
+    font-size: 20px;
+    font-family:'Finlandica', sans-serif ;
+}
+
+
+.About h1{
+    font-family:'Finlandica', sans-serif ; 
+    font-size: 30px;
+}
+.myservices{
+    margin-top: 30px;
+    font-family: 'Source Code Pro', monospace;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.myservices li{
+    font-family:'Finlandica', sans-serif ;
+    margin-left: 50px;
+    padding: 15px;
+    font-size: x-large;
+}
+
+.Photo{
+    background: url("port-background.jpg");
+}
